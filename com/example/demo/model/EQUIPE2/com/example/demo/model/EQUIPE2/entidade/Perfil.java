@@ -1,4 +1,4 @@
-package entidade;
+package com.example.demo.model.EQUIPE2.entidade;
 
 import java.util.HashSet;
 import java.util.Set;

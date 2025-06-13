@@ -9,10 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.model.EQUIPE2.entidade.Evento;
 import com.example.demo.model.EQUIPE2.entidade.Perfil;
-import com.example.demo.model.EQUIPE2.entidade.repository.EventoRepository;
-import com.example.demo.model.EQUIPE2.entidade.repository.PerfilRepository;
 import com.exemplo.eventos.dto.PerfilDTO;
 import com.exemplo.eventos.exception.ResourceNotFoundException;
+
+import repository.EventoRepository;
+import repository.PerfilRepository;
 
 @Service
 public class PerfilService {

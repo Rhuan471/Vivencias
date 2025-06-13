@@ -1,4 +1,4 @@
-package entidade.repository;
+package repository;
 
 @Repository
 public interface PerfilRepository extends JpaRepository<Perfil, Long> {
